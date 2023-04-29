@@ -35,6 +35,10 @@ Console.WriteLine("Cars List =>");
 Console.WriteLine(cars);
 
 Console.WriteLine("Mostrando modelos por Marca =>");
-var response = cars.GetBrand("Chevrolet");
-Console.WriteLine($"Response: {response.Message}");
-
+//var response = cars.GetBrand("Chevrolet");
+//.WriteLine($"Response: {response.Message}");
+var carsArray = cars.GetBrand("Chevrolet");
+foreach (var car in carsArray)
+{
+    Console.WriteLine(car);
+}
