@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList.Logic", "LinkedList.Logic\LinkedList.Logic.csproj", "{ABF4AF19-4F2B-4CA9-AB52-298E16AE05DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList.UI", "LinkedList.UI\LinkedList.UI.csproj", "{6D77829A-C727-4FE4-91C1-19211BF7DA6E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF4AF19-4F2B-4CA9-AB52-298E16AE05DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF4AF19-4F2B-4CA9-AB52-298E16AE05DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF4AF19-4F2B-4CA9-AB52-298E16AE05DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF4AF19-4F2B-4CA9-AB52-298E16AE05DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D77829A-C727-4FE4-91C1-19211BF7DA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D77829A-C727-4FE4-91C1-19211BF7DA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D77829A-C727-4FE4-91C1-19211BF7DA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D77829A-C727-4FE4-91C1-19211BF7DA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
