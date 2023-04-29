@@ -46,28 +46,6 @@
             Count++;
         }
 
-        /*public Response GetBrand(string brand)
-        {
-            var array = new T[Count];
-            int i = 0;
-            var pointer = _first;
-            while (pointer != null)
-            {
-                if (brand!.Equals(pointer.Data))
-                {
-                    array[i] = pointer.Data!;
-                    i++;
-                    pointer = pointer.Right;
-                }
-                pointer = pointer!.Right;
-            }
-            return new Response
-            {
-                IsScucced = false,
-                Message = $"The brand: {brand} not found."
-            };
-        }*/
-
         public T[] GetBrand(string brand)
         {
             var array = new T[Count];
@@ -79,9 +57,8 @@
                 {
                     array[i] = pointer.Data!;
                     i++;
-                    //pointer = pointer.Right;
+                    pointer = pointer.Right;
                 }
-                pointer = pointer.Right;
             }
             return array;
         }
